@@ -1,0 +1,69 @@
+.gpt3__blog-container{
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: var(--color-footer);
+}
+.gpt3__blog-heading h1{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+.gpt3__blog-container_groupA{
+  flex: 1;
+  flex-direction: row;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.gpt3__blog-container_groupA img{
+  width: 100px;
+  width: 400px;
+  
+}
+.gpt3__blog-container_groupB{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex: 1;
+  flex-direction: column;
+  width: 50px;
+  margin-left: -200px;
+  margin-top: 1rem;
+}
+.gpt3__blog-container_groupB img{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width:350px;
+  height: 250px;
+  cursor: pointer;
+}
+.gpt3__blog-mydiv{
+  margin-left: 1rem;
+}
+.gpt3__blog-mydiv h6{
+  margin-top: 1rem;
+}
+.gpt3__blog-mydiv p{
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25.11px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 1rem;
+  }
+  .gpt3__blog-mydiv h5{
+    font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-top: 8rem;
+  cursor: pointer;
+  }
